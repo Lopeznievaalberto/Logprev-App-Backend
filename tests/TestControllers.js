@@ -48,7 +48,7 @@ TestsControllers.newTest = async (req, res) => {
         })
 
         if (test) {
-            res.send({ "Message": `El usuario ${test.name} se ha creado correctamente` })
+            res.send({ "Message": `El test ${test.name} se ha creado correctamente` })
         }
     } catch (error) {
         res.send(error)

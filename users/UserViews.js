@@ -6,7 +6,7 @@ const UsersControllers = require('../users/UserControllers');
 //const isAdmin = require('../middlewares/isAdmin');
 
 //router.post("/getAll", isAdmin, UsersControllers.getAll);
-router.get("/getAll", UsersControllers.getAllUsers);
+router.get("/getAllUsers", UsersControllers.getAllUsers);
 router.post("/newUser", UsersControllers.newUser);
 router.put("/updateUser",  UsersControllers.updateUser);
 router.delete("/deleteUser",  UsersControllers.deleteUser);

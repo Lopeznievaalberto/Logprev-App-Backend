@@ -7,35 +7,45 @@ const testSchema = new Schema ({
         type: String,
         required: true
     },
-    question_1:{
-        ans_1:{type:String},
-        ans_2:{type:String},
-        ans_3:{type:String},
-        ans_4:{type:String}
+    question_1:{ 
+        type: String,
+        required: true,
+        ans_11:{type:String},
+        ans_12:{type:String},
+        ans_13:{type:String},
+        ans_14:{type:String}
     },
     question_2:{
-        ans_1:{type:String},
-        ans_2:{type:String},
-        ans_3:{type:String},
-        ans_4:{type:String}
+        type: String,
+        required: true,
+        ans_21:{type:String},
+        ans_22:{type:String},
+        ans_23:{type:String},
+        ans_24:{type:String}
     },
     question_3:{
-        ans_1:{type:String},
-        ans_2:{type:String},
-        ans_3:{type:String},
-        ans_4:{type:String}
+        type: String,
+        required: true,
+        ans_31:{type:String},
+        ans_32:{type:String},
+        ans_33:{type:String},
+        ans_34:{type:String}
     },
     question_4:{
-        ans_1:{type:String},
-        ans_2:{type:String},
-        ans_3:{type:String},
-        ans_4:{type:String}
+        type: String,
+        required: true,
+        ans_41:{type:String},
+        ans_42:{type:String},
+        ans_43:{type:String},
+        ans_44:{type:String}
     },
     question_5:{
-        ans_1:{type:String},
-        ans_2:{type:String},
-        ans_3:{type:String},
-        ans_4:{type:String}
+        type: String,
+        required: true,
+        ans_51:{type:String},
+        ans_52:{type:String},
+        ans_53:{type:String},
+        ans_54:{type:String}
     } 
 },
     {
